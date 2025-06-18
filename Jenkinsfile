@@ -5,8 +5,7 @@ pipeline {
             steps {
                 echo 'Hello World!'
             }
-
-
+        } 
         stage('cat ReadMe') {
             when 
             {
