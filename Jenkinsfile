@@ -12,12 +12,9 @@ pipeline {
             branch "dev"
             }
             steps {        
-               script {
-                    url = sh (script: 'cat README.md',returnStdout: true).trim()
-                    sh """
-                      echo ${url}
-                      """
-                   }
+               
+                      echo "Readme file changed inside dev branch         
+                  
             }    
         }
     }
