@@ -11,10 +11,8 @@ pipeline {
             {
             branch "dev"
             }
-            steps {
-               
-                echo "README.md"
-                
+            steps {        
+                cat README.md
             }    
         }
     }
