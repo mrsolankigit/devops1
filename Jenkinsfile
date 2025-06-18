@@ -13,7 +13,7 @@ pipeline {
             }
             steps {        
                 sh '''
-                    cat README.md
+                    cat hello.py
                 '''    
             }    
         }
