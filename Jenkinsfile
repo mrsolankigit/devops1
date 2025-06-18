@@ -11,9 +11,8 @@ pipeline {
             {
             branch "dev"
             }
-            steps {        
-               
-                      echo "Readme file changed inside dev branch         
+            steps {                       
+                      echo "Readme file changed inside dev branch"         
                   
             }    
         }
