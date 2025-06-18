@@ -13,7 +13,7 @@ pipeline {
             }
             steps {                       
                       echo "Readme file changed inside dev branch only" 
-                      sh 'cat README.md'                  
+                      bat 'echo "Hello from dev branch!"'                 
             }    
         }
     }
