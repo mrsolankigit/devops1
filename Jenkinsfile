@@ -14,7 +14,7 @@ pipeline {
             steps {                       
                       echo "Readme file changed inside dev branch only" 
                       bat 'echo "Hello from dev branch!"'     
-                    
+                      bat 'type README.md'
             }    
         }
     }
