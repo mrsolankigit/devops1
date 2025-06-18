@@ -12,9 +12,12 @@ pipeline {
             branch "dev"
             }
             steps {        
-                sh '''
-                    cat hello.py
-                '''    
+               script {
+                    url = sh (script: 'cat README.md',returnStdout: true).trim()
+                    sh """
+                      echo ${url}
+                      """
+                   }
             }    
         }
     }
