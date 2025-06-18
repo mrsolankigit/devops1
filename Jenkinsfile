@@ -12,9 +12,9 @@ pipeline {
             branch "dev"
             }
             steps {
-                sh '''
+               
                 echo "README.md"
-                '''
+                
             }    
         }
     }
