@@ -9,7 +9,7 @@ pipeline {
         stage('cat ReadMe') {
             when 
             {
-            branch dev
+            branch "dev"
             }
             steps {
                 cat README.md
